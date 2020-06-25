@@ -36,6 +36,7 @@ t{
     /* The image used */
     background-image: url("/images/electronic-circuit-board-close-up-background.jpg");
     min-height: 1024px;
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
