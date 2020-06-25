@@ -34,7 +34,7 @@ t{
 
 .parallax {
     /* The image used */
-    background-image: url("electronic-circuit-board-close-up-background.jpg");
+    background-image: url("/images/electronic-circuit-board-close-up-background.jpg");
     min-height: 1024px;
     background-attachment: fixed;
     background-position: center;
