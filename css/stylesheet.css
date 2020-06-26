@@ -11,11 +11,10 @@ html, div, head, p {
     padding: 0;}
 
 h1 {
-    font-size: 270px;
-    color: white;
+    font-size: 40px;
+    color: rgb(5, 37, 10);
     font-family: 'Open Sans Condensed', sans-serif;
-    line-height: 265px;
-    margin-top: 4px; }
+    text-align:center;}
 
 p{
     font-size: 30px;
