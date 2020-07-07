@@ -3,44 +3,49 @@
 /*** RESET ***/
 body{
     height: 100%;
-    margin: 0;
+    margin: 10%;
     padding: 0;
-    padding-bottom: 30px;}
+    padding-bottom: 30px;
+    background-color:powderblue;
+    top: 50%;
+    left: 50%;
+    background-repeat:no-repeat;}
 
 html, div, head, p {
     margin: 0;
-    padding: 0;}
+    padding: 0;
+    background-repeat: no-repeat;
+    background-color:powderblue;}
 
 h1 {
-    font-size: 40px;
+    font-size: 100px;
     color: rgb(5, 37, 10);
     font-family: 'Open Sans Condensed', sans-serif;
-    text-align:center;}
+    text-align:left;}
 
 p{
     font-size: 30px;
     color: black;
     height:250px;
-    background-color:white;
-    text-align:center;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
+    text-align:left;
+    font-family: 'Open Sans Condensed', sans-serif;}
 
-t{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 28px;
-
-}
-
-.parallax {
-    /* The image used */
-    background-image: url("/images/electronic-circuit-board-close-up-background.jpg");
-    min-height: 1024px;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
+img {
+    float: right;
+    margin: -40% 0% 0% 0%;
+    width: 41%;
+    height: 40%;
     background-repeat: no-repeat;
-    background-size: cover;
+}
+
+
+hr{
+    width:55%;
+    text-align:left;
+    border-style: groove;
+    border-width: 1px;
+    margin-left:0;
+    color: black;
 }
 
 .navbar {
@@ -62,12 +67,6 @@ t{
     text-decoration: none;
     font-size: 17px;
 }
-
-@media only screen and (max-device-width: 1366px) {
-.parallax {
-      background-attachment: scroll;
-    }
-  }
 
 .navbar a:hover {
     background: #f1f1f1;
