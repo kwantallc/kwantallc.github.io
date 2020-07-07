@@ -1,33 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
 /*** RESET ***/
-body{
-    height: 100%;
-    margin: 0;
-    padding: 0;
+body, p { 
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
     padding-bottom: 30px;}
 
-html, div, head, p {
-    margin: 0;
-    padding: 0;}
-
-h1 {
-    font-size: 40px;
-    color: rgb(5, 37, 10);
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-align:center;}
-
-p{
-    font-size: 30px;
-    color: black;
-    height:250px;
-    background-color:white;
-    text-align:center;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-t{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 28px;
-
-}
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+  }
+  
+  .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+  
+  .navbar a:hover {
+      background: #f1f1f1;
+      color: black;
+  }
+  
+  .navbar a.active {
+      background-color: black;
+      color: white;
+  }
