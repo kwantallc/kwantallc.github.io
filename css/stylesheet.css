@@ -13,7 +13,7 @@ body{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-html, div, head, p {
+html, div, head {
     margin: 0;
     padding: 0;
     background-repeat: no-repeat;
