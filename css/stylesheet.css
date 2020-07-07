@@ -16,8 +16,7 @@ body{
 html, div, head {
     margin: 0;
     padding: 0;
-    background-repeat: no-repeat;
-    background-color:powderblue;}
+    background-repeat: no-repeat;}
 
 h1 {
     font-size: 100px;
