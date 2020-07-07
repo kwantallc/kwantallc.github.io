@@ -2,13 +2,13 @@
 
 /*** RESET ***/
 body{
-    height: 100%;
-    margin: 10%;
+/**    height: 100%;
+    margin: 10%;**/
     padding: 0;
     padding-bottom: 30px;
     background-color:powderblue;
-    top: 50%;
-    left: 50%;
+ /**   top: 50%;
+    left: 50%;**/
     background-repeat:no-repeat;
     font-family: 'Open Sans Condensed', sans-serif;
 }
