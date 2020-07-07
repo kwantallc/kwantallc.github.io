@@ -76,3 +76,9 @@ hr{
     background-color: black;
     color: white;
 }
+
+@media (max-width:629px) {
+    img#logo {
+      display: none;
+    }
+  }
