@@ -6,6 +6,8 @@
     font-size: medium;
     padding-bottom: 5vw;
     margin-left: 5vw;
+    word-wrap: break-word;
+    margin-right:5vw;
 }
 
 body {
