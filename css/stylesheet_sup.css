@@ -9,9 +9,6 @@ body {
     padding-top: 10vw;
 }
 
-html, body {
-    overflow-x: hidden;
-}
 /*
     .navbar {
       overflow: hidden;
