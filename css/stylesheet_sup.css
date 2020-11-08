@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
 /*** RESET ***/
-body { 
+.text { 
     text-align: left;
     font-size: medium;
     padding-bottom: 10vw;
