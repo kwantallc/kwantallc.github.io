@@ -40,6 +40,10 @@ hr{
     margin-left:0;
     color: black;
 }
+
+html, body {
+    overflow-x: hidden;
+}
 /*
 .navbar {
     overflow: hidden;
