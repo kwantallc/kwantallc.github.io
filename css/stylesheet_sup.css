@@ -3,10 +3,12 @@
 /*** RESET ***/
 body { 
     text-align: left;
-    font-family: 'Open Sans Condensed', sans-serif;
-    padding-bottom: 15vw;
-    margin-left: 10vw}
+    font-size: medium;
+    padding-bottom: 10vw;
+    margin-left: 5vw;
+}
 
+/*
     .navbar {
       overflow: hidden;
       background-color: #333;
@@ -35,7 +37,7 @@ body {
   .navbar a.active {
       background-color: black;
       color: white;
-  }
+  } */
 
  /* unvisited link */
 a:link {
