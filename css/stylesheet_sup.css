@@ -6,8 +6,12 @@ body {
     font-size: medium;
     padding-bottom: 10vw;
     margin-left: 5vw;
+    padding-top: 10vw;
 }
 
+html, body {
+    overflow-x: hidden;
+}
 /*
     .navbar {
       overflow: hidden;
