@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
 /*** RESET ***/
-body{
-    margin: 10%;
+.text {
     padding: 0;
-    padding-bottom: 30px;
     background-color:powderblue;
     background-repeat:no-repeat;
-    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: left;
+    font-size: medium;
+    padding-bottom: 10vw;
+    margin-left: 5vw;
 }
 
 h1 {
@@ -29,7 +30,6 @@ img {
     background-repeat: no-repeat;
 }
 
-
 hr{
     width:55%;
     text-align:left;
@@ -38,7 +38,7 @@ hr{
     margin-left:0;
     color: black;
 }
-
+/*
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -67,7 +67,7 @@ hr{
 .navbar a.active {
     background-color: black;
     color: white;
-}
+} */
 
 @media (max-width:629px) {
     img#logo {
