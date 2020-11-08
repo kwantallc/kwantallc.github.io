@@ -4,7 +4,8 @@
 body, p { 
     text-align: left;
     font-family: 'Open Sans Condensed', sans-serif;
-    padding-bottom: 30px;}
+    padding-bottom: 15vw;
+    margin-left: 10vw}
 
     .navbar {
       overflow: hidden;
@@ -34,4 +35,29 @@ body, p {
   .navbar a.active {
       background-color: black;
       color: white;
+  }
+
+ /* unvisited link */
+a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  
+  /* visited link */
+  a:visited {
+    color: green;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: aqua;
+    text-decoration: underline; 
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: none;
   }
