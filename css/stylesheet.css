@@ -2,25 +2,27 @@
 
 /*** RESET ***/
 .text {
-    padding: 0;
-    background-color:powderblue;
-    background-repeat:no-repeat;
     text-align: left;
     font-size: medium;
     padding-bottom: 10vw;
     margin-left: 5vw;
 }
 
+body {
+    padding: 0;
+    background-color:powderblue;
+    background-repeat:no-repeat;
+}
+
 h1 {
     font-size: 100px;
     color: rgb(5, 37, 10);
-    font-family: 'Open Sans Condensed', sans-serif;
     text-align:left;}
 
 p{
     font-size: 30px;
     text-align:left;
-    font-family: 'Open Sans Condensed', sans-serif;}
+}
 
 img {
     float: right;
