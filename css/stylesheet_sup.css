@@ -4,11 +4,14 @@
 .text { 
     text-align: left;
     font-size: medium;
-    padding-bottom: 10vw;
+    padding-bottom: 5vw;
     margin-left: 5vw;
-    padding-top: 10vw;
+    padding-top: 5vw;
 }
 
+html, body {
+    overflow-x: hidden;
+}
 /*
     .navbar {
       overflow: hidden;
