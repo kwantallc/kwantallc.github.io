@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
 /*** RESET ***/
-body, p { 
+body { 
     text-align: left;
     font-family: 'Open Sans Condensed', sans-serif;
     padding-bottom: 15vw;
